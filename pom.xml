@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.clumsy</groupId>
+  <artifactId>scanbadge</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>scanbadge</name>
+  
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+
+    <dependency>
+      <groupId>org.bytedeco.javacpp-presets</groupId>
+      <artifactId>leptonica-platform</artifactId>
+      <version>1.74.4-1.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bytedeco.javacpp-presets</groupId>
+      <artifactId>tesseract-platform</artifactId>
+      <version>3.05.01-1.4</version>
+    </dependency>
+
+    <dependency>
+  	  <groupId>org.bytedeco.javacpp-presets</groupId>
+  	  <artifactId>tesseract</artifactId>
+  	  <scope>provided</scope>
+  	  <version>3.05.01-1.4</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>org.bytedeco.javacpp-presets</groupId>
+      <artifactId>leptonica</artifactId>
+      <scope>provided</scope>
+      <version>1.74.4-1.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>javacpp</artifactId>
+      <scope>provided</scope>
+      <version>1.3.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.18</version>
+      <scope>provided</scope>
+    </dependency>
+</dependencies>
+
+</project>
